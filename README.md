@@ -111,7 +111,16 @@ public class ActuatorCustomEndpoint {
 ]
 ```
 
+<br>
+
+### Using Prometheus & Grafana
+- Spring Actuator는 기본적으로 Micrometer를 사용하고 있기 때문에, Prometheus와 Grafana를 사용하여 모니터링을 할 수 있다.
+- Prometheus가 Spring Actuator의 endpoint를 통해 데이터를 수집하고, Grafana가 Prometheus의 데이터를 시각화한다.
+
+<img src="./images/prometheus.jpeg">
+
 
 <br><br>
+### References
 - [Spring actuator docs](https://docs.spring.io/spring-boot/docs/current/reference/html/actuator.html#actuator.endpoints)
-- [Inflearn spring actuator lecture](https://www.inflearn.com/course/spring-boot-actuator-%ED%8C%8C%ED%97%A4%EC%B9%98%EA%B8%B0/dashboard)
+- [Inflearn spring actuator](https://www.inflearn.com/course/spring-boot-actuator-%ED%8C%8C%ED%97%A4%EC%B9%98%EA%B8%B0/dashboard)
